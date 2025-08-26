@@ -1,0 +1,52 @@
+baseURL: "https://ssedanur.github.io/embedded-lab"
+languageCode: "tr-TR"
+title: "Gömülü Yazılım Blog"
+theme: "toha"
+
+# Toha tema ayarları
+params:
+  gitRepo: "https://github.com/ssedanur/embedded-lab"
+  
+  # Kişisel bilgiler
+  author:
+    name: "Sedanur SOYDAN"
+    
+  # Site ayarları
+  darkMode:
+    enabled: true
+    default: "auto"
+    
+  # Sosyal medya linkleri
+  footer:
+    enable: true
+    
+# Menu yapılandırması
+menu:
+  main:
+    - name: "Ana Sayfa"
+      url: "/"
+      weight: 1
+    - name: "Blog"
+      url: "/posts/"
+      weight: 2
+    - name: "Hakkımda"
+      url: "/about/"
+      weight: 3
+    - name: "Projeler"
+      url: "/projects/"
+      weight: 4
+
+# İçerik ayarları
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: "github"
+    lineNos: true
+
+# Çoklu dil desteği
+languages:
+  tr:
+    languageName: "Türkçe"
+    weight: 1
