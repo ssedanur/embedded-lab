@@ -1,6 +1,7 @@
 baseURL: "https://ssedanur.github.io/embedded-lab"
 languageCode: "tr-TR"
-title: "Gömülü Yazılım Blog"
+defaultContentLanguage: "tr"
+title: "Embedded Lab Blog"
 theme: "toha"
 
 # Toha tema ayarları
