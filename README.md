@@ -9,6 +9,3 @@ https://ssedanur.github.io/embedded-lab/)
 ### 💡 Not
 Bu blog sürekli güncelleniyor; yeni yazılar, deneyimler ve projeler eklenmeye devam edecek. 
 
-
-
-https://ssedanur.github.io/embedded-lab/
